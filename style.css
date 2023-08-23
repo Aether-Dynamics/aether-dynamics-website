@@ -1,0 +1,110 @@
+@font-face 
+{
+    font-family: 'ArcadeGamerFont';
+    src: url('Arcade_Gamer.ttf') format('ttf') 
+}
+
+@font-face 
+{
+    font-family: 'Horta';
+    src: url('Horta-demo.ttf') format('ttf')  
+}
+
+
+
+p
+{
+    font-family: 'Horta', sans-serif;
+    color: gold;
+}
+
+body
+{
+    background-color: black;;
+}
+
+.logo
+ {
+    width: 80px; /* Redimensionne l'image à 60 pixels de large */
+    margin-right: 0px; /* Espacement entre l'image et le titre */
+}
+
+header 
+{
+   
+    background-color: black; 
+    color: #f61d1d;
+    padding: 20px;
+    border-bottom: 5px solid yellow; /* Ajoutez la ligne jaune en bas */
+    border-top: 5px solid yellow; /* Ajoutez la ligne jaune en haut */
+}
+
+.dynamics
+{
+    color: gold;
+}
+
+ul
+{ 
+    display: inline;
+}
+
+.button {
+    
+    border: 2px solid gold; /* Bordure dorée */
+    font-family: 'Horta', sans;
+    display: inline;
+    padding: 10px 20px;
+    background-color: #f61d1d;
+    color: gold;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button:hover 
+{
+    background-color: gold;
+    color: #f61d1d;
+}
+
+h1 
+{
+    font-family: 'Horta', sans-serif;
+    font-size: 24px;
+}
+
+nav
+{
+    font-family: 'Horta', sans-serif;
+    display: flex;
+   align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
