@@ -1,3 +1,5 @@
+/*---------- Polices ----------*/
+
 @font-face 
 {
     font-family: 'ArcadeGamerFont';
@@ -10,24 +12,7 @@
     src: url('Horta-demo.ttf') format('ttf')  
 }
 
-
-
-p
-{
-    font-family: 'Horta', sans-serif;
-    color: gold;
-}
-
-body
-{
-    background-color: black;;
-}
-
-.logo
- {
-    width: 80px; /* Redimensionne l'image à 60 pixels de large */
-    margin-right: 0px; /* Espacement entre l'image et le titre */
-}
+/*---------- En-tête ----------*/
 
 header 
 {
@@ -35,9 +20,18 @@ header
     background-color: black; 
     color: #f61d1d;
     padding: 20px;
-    border-bottom: 5px solid yellow; /* Ajoutez la ligne jaune en bas */
-    border-top: 5px solid yellow; /* Ajoutez la ligne jaune en haut */
+
+    /* Ajoute les lignes de bordures */
+    border-bottom: 5px solid yellow; /* en bas */
+    border-top: 5px solid yellow; /*en haut */
 }
+
+.logo
+ {
+    width: 80px; /* Redimensionne l'image à 80 pixels de large */
+    margin-right: 0px; /* Espacement entre l'image et le titre */
+}
+
 
 .dynamics
 {
@@ -49,39 +43,38 @@ ul
     display: inline;
 }
 
-.button {
-    
-    border: 2px solid gold; /* Bordure dorée */
-    font-family: 'Horta', sans;
-    display: inline;
-    padding: 10px 20px;
-    background-color: #f61d1d;
-    color: gold;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-right: 10px;
+/*---------- Corps ----------*/
+
+body
+{
+    font-weight: bold;
+    font-family: 'Horta', sans-serif;
+    background-color: black;
 }
 
-.button:hover 
-{
-    background-color: gold;
-    color: #f61d1d;
-}
 
 h1 
 {
-    font-family: 'Horta', sans-serif;
     font-size: 24px;
+    color: gold;
+}
+
+h2
+{
+    text-align: center;
+    color: gold;
+}
+
+h3
+{
+    display: flex;
+    justify-content: center;
 }
 
 nav
-{
-    font-family: 'Horta', sans-serif;
+{   
     display: flex;
-   align-items: center;
-
+    align-items: center;
 }
 
 nav ul {
@@ -93,11 +86,53 @@ nav li {
     margin-right: 20px;
 }
 
-nav a {
-    text-decoration: none;
+
+p
+{
     color: gold;
 }
 
+.game-description
+{
+    display: flex;
+    justify-content: center;
+}
+
+/*---------- Boutons ----------*/
+
+.button 
+{
+    /* font */
+    font-weight: bold;
+    font-size: 16px;
+
+   
+    border-radius: 5px;
+    border: 2px solid gold; 
+    display: inline;
+    padding: 10px 20px;
+    background-color: #f61d1d;
+    color: gold;
+    border: none;
+
+    margin-right: 10px;
+}
+
+.button:hover 
+{
+    background-color: gold;
+    color: #f61d1d;
+}
+
+html
+{
+    font-family: 'arial', sans-serif;
+}
+
+.dowload-button
+{
+    position: center;
+}
 
 
 
